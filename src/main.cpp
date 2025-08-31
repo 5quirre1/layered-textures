@@ -6,7 +6,7 @@ int main(void)
     const int width = 500;
     const int height = 300;
     InitWindow(width, height, "greg");
-    setTargetFPS(60);
+    SetTargetFPS(60);
     
     // all the textures
     Texture2D one = LoadTexture("assets/1.png");
